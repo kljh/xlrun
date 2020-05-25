@@ -16,7 +16,7 @@ A local install of Excel is required.
 Excel is invoked using COM Automation.
 
 
-Project file was created with (manually targeting net48 for COM support):
+Project file was created with commands below (manually modifying the project file to target net48 for COM support):
 ```
 dotnet new console
 dotnet add package Microsoft.Office.Interop.Excel
